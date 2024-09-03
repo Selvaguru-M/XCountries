@@ -18,7 +18,7 @@ function App() {
 
   return (
     <div>
-      <h1 style={{textAlign:'center'}}>Start {countries.length}</h1>
+      <h1 style={{textAlign:'center'}}>Country</h1>
       <div className='cardcontainer'>
 
 {countries.length > 0 ? (
