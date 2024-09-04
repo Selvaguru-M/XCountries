@@ -21,7 +21,7 @@ function App() {
       <h1 style={{textAlign:'center'}}>Country</h1>
       <div className='cardcontainer'>
 
-{countries.length > 0 ? (
+        {countries && countries.length > 0 ? (
         countries.map((country) => (
           <Card data={country} key={country.abbr} />
 
